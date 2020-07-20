@@ -14,7 +14,7 @@ class TrainOptions(BaseOptions):
         # for training
         self.parser.add_argument("--dataset_root", default="dataset/")
         self.parser.add_argument('--dataset', required=True, help='facades')
-        self.parser.add_argument('--start_resolution', type=int, default=8, help='the starting resolution')
+        self.parser.add_argument('--start_resolution', type=int, default=32, help='the starting resolution')
         self.parser.add_argument("--gan_mode", default="lsgan")
         self.parser.add_argument('--continue_train', action='store_true', help='continue training: load the latest model')
         self.parser.add_argument('--load_pretrain', type=str, default='', help='load the pretrained model from the specified location')
