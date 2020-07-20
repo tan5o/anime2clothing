@@ -51,7 +51,7 @@ Basically, model load from latest checkpoints. However, you can chose number of 
 `python test.py --model_path models/pretrained_model.pth --input_dir dataset/test/a --output_dir result`
 
 ### Pre-trained model
-In the future, we will release the pre-trained model when the copyright problem is cleared.
+You can download [**pre-trained model**](models/pretrained_unet_20200122.pth) from `models/pretrained_unet_20200122.pth`
 
 ## Acknowledgments
 Our code is inspired by [pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [pix2pixHD](https://github.com/NVIDIA/pix2pixHD)
