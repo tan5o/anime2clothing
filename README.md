@@ -1,9 +1,10 @@
 # Anime2Clothing
 [![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.11479) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tan5o/anime2clothing/blob/master/Anime2Clothing_DEMO.ipynb)
 
-Pytorch official implementation of **Anime to Real Clothing: Cosplay Costume Generation via Image-to-Image Translation**.
-
 <img src='imgs/purpose_of_paper.png' width="500px"/>
+
+Pytorch official implementation of **Anime to Real Clothing: Cosplay Costume Generation via Image-to-Image Translation**.
+ (https://arxiv.org/abs/2008.11479)
 
 ## Prerequisites
 - Anaconda 3
