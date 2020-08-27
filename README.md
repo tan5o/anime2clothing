@@ -3,7 +3,7 @@
 # Anime2Clothing
 Pytorch official implementation of **Anime to Real Clothing: Cosplay Costume Generation via Image-to-Image Translation**.
 
-<img src='imgs/purpose_of_paper.png' width="400px"/>
+<img src='imgs/purpose_of_paper.png' width="500px"/>
 
 ## Prerequisites
 - Anaconda 3
@@ -12,7 +12,7 @@ Pytorch official implementation of **Anime to Real Clothing: Cosplay Costume Gen
 
 ## Getting Started
 ### Training
-`python train.py --project_name cosplay_synthesis  --dataset DATASET --checkpoints_dir checkpoints --g_conv normal --g_norm batch --d_conv normal --d_norm spectral --netG unet`
+`python train.py --project_name cosplay_synthesis  --dataset DATASET`
 
 #### Training dataset structure
 ```buildoutcfg
@@ -53,5 +53,6 @@ Basically, model load from latest checkpoints. However, you can chose number of 
 ### Pre-trained model
 You can download [**pre-trained model**](models/pretrained_unet_20200122.pth) from `models/pretrained_unet_20200122.pth`
 
+We recommend using an anime character image with a simple background as the input image.
 ## Acknowledgments
 Our code is inspired by [pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [pix2pixHD](https://github.com/NVIDIA/pix2pixHD)

@@ -39,7 +39,7 @@ class TrainOptions(BaseOptions):
 
         # for discriminators
         self.parser.add_argument('--ndf', type=int, default=64, help='# of discrim filters in first conv layer')
-        self.parser.add_argument("--d_norm", default="none", help='normalization type of discriminator')
+        self.parser.add_argument("--d_norm", default="spectral", help='normalization type of discriminator')
         self.parser.add_argument("--d_conv", default="normal", help='convolution type of discriminator')
 
         self.isTrain = True
