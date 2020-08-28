@@ -43,8 +43,8 @@ DATASET
 ```
 
 #### Continue Training 
-Add continue_train otpion, and you can control starting epoch and resolution.
-Basically, model load from latest checkpoints. However, you can chose number of epoch if you use `--load_epoch` option.
+Add continue_train option, and you can control starting epoch and resolution.
+Basically, model load from latest checkpoints. However, you can choose number of epoch if you use `--load_epoch` option.
 
 `--continue_train --start_epoch 47  --start_resolution 256`
 
